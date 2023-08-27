@@ -1,0 +1,99 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap');
+
+:root{
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Pacifico', cursive;
+    --font2: 'Maven Pro', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    min-width: 100%;
+    font-family:var(--font0) ;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+header>h1{
+    padding-top: 40px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
+}
+
+
+header>p{
+    padding-bottom: 40px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder ;
+}
+
+
+a:hover{
+    color: rgba(255, 255, 255, 0.781);
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 35px;
+    font-family: var(--font1);
+    font-size: 3.15vw;
+}
+section>p{
+   line-height: 2em;
+}
+
+section.normal{
+background-color: rgb(255, 255, 255);
+}
+
+
+section.img{
+     background-color: rgba(0, 0, 0, 0.452);
+     color: white;
+}
+section#aa1{
+     background-image: url(imagens/background001.jpg);
+    background-position: right center;
+      background-attachment: fixed;
+}
+section#aa2{
+    background-image: url(imagens/background002.jpg); background-position: right bottom;
+    background-attachment: fixed;
+}
+
+section.img>p{
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0px 5px;
+}
